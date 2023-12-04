@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "C:/Users/drugo/Desktop/ROBOT/catkin_ws/devel/lib/turtlebot3_marker_server.lib"
+  "CMakeFiles/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python.dir/2998e25bde984b170458dff5d5910456/turtlebot3_marker_server.cpp.obj"
+  "CMakeFiles/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python.dir/2998e25bde984b170458dff5d5910456/turtlebot3_marker_server.cpp.obj.d"
+  "catkin_generated/windows_wrappers/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python/turtlebot3_marker_server.exe"
+  "catkin_generated/windows_wrappers/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python/turtlebot3_marker_server.exe.manifest"
+  "catkin_generated/windows_wrappers/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python/turtlebot3_marker_server.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtlebot3_example_turtlebot3_marker_server_exec_cip_devel_python.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

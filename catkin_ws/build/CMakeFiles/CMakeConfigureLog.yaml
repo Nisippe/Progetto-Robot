@@ -1,0 +1,274 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler versione 19.37.32825 per x64
+      Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/3.27.4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Nota: file incluso  C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: file incluso  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler versione 19.37.32825 per x64
+      Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Nota: file incluso  C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Nota: file incluso  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-j5e1a3"
+      binary: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-j5e1a3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-j5e1a3'
+        
+        Run Build Command(s): C:/Users/drugo/miniforge3/envs/ros_env/Library/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_9a1e3\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9a1e3.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9a1e3.dir\\build
+        Building C object CMakeFiles/cmTC_9a1e3.dir/CMakeCCompilerABI.c.obj
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9a1e3.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5e1a3 --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\drugo\\AppData\\Local\\Temp\\nmDF31.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_9a1e3.exe
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9a1e3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9a1e3.dir\\objects1.rsp @C:\\Users\\drugo\\AppData\\Local\\Temp\\nmE107.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9a1e3.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9a1e3.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9a1e3.dir/manifest.res CMakeFiles\\cmTC_9a1e3.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9a1e3.dir\\objects1.rsp /out:cmTC_9a1e3.exe /implib:cmTC_9a1e3.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5e1a3\\cmTC_9a1e3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9a1e3.dir/intermediate.manifest CMakeFiles\\cmTC_9a1e3.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_9a1e3.dir/intermediate.manifest /out:CMakeFiles\\cmTC_9a1e3.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9a1e3.dir/manifest.res CMakeFiles\\cmTC_9a1e3.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9a1e3.dir\\objects1.rsp /out:cmTC_9a1e3.exe /implib:cmTC_9a1e3.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5e1a3\\cmTC_9a1e3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9a1e3.dir/intermediate.manifest CMakeFiles\\cmTC_9a1e3.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-henl68"
+      binary: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-henl68"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-henl68'
+        
+        Run Build Command(s): C:/Users/drugo/miniforge3/envs/ros_env/Library/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_8d0ff\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_8d0ff.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_8d0ff.dir\\build
+        Building CXX object CMakeFiles/cmTC_8d0ff.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_8d0ff.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-henl68 --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\drugo\\AppData\\Local\\Temp\\nmE5A9.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_8d0ff.exe
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8d0ff.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8d0ff.dir\\objects1.rsp @C:\\Users\\drugo\\AppData\\Local\\Temp\\nmE637.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_8d0ff.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_8d0ff.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_8d0ff.dir/manifest.res CMakeFiles\\cmTC_8d0ff.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8d0ff.dir\\objects1.rsp /out:cmTC_8d0ff.exe /implib:cmTC_8d0ff.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-henl68\\cmTC_8d0ff.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8d0ff.dir/intermediate.manifest CMakeFiles\\cmTC_8d0ff.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_8d0ff.dir/intermediate.manifest /out:CMakeFiles\\cmTC_8d0ff.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_8d0ff.dir/manifest.res CMakeFiles\\cmTC_8d0ff.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_8d0ff.dir\\objects1.rsp /out:cmTC_8d0ff.exe /implib:cmTC_8d0ff.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-henl68\\cmTC_8d0ff.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8d0ff.dir/intermediate.manifest CMakeFiles\\cmTC_8d0ff.dir/manifest.res
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/boost_thread-1.78.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/Boost-1.78.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/Boost-1.78.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/gazebo/gazebo-config.cmake:187 (find_package)"
+      - "turtlebot3_simulations/turtlebot3_gazebo/CMakeLists.txt:23 (find_package)"
+    directories:
+      source: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-2c4zzu"
+      binary: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-2c4zzu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/OGRE/cmake/modules;C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/OGRE/cmake;C:/Users/drugo/miniforge3/envs/ros_env/Library/CMake;"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-2c4zzu'
+        
+        Run Build Command(s): C:/Users/drugo/miniforge3/envs/ros_env/Library/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_142f4\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_142f4.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_142f4.dir\\build
+        Building C object CMakeFiles/cmTC_142f4.dir/src.c.obj
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_142f4.dir\\src.c.obj.d --working-dir=C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2c4zzu --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\drugo\\AppData\\Local\\Temp\\nm7156.tmp
+        src.c
+        C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2c4zzu\\src.c(1): fatal error C1083: Non ├¿ possibile aprire il file inclusione: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: 'C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_142f4.dir\\src.c.obj.d --working-dir=C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2c4zzu --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\drugo\\AppData\\Local\\Temp\\nm7156.tmp' : codice restituito '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_142f4.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_142f4.dir\\build' : codice restituito '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/boost_thread-1.78.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/Boost-1.78.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/Boost-1.78.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/cmake-3.27/Modules/FindBoost.cmake:594 (find_package)"
+      - "C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/cmake/gazebo/gazebo-config.cmake:187 (find_package)"
+      - "turtlebot3_simulations/turtlebot3_gazebo/CMakeLists.txt:23 (find_package)"
+    directories:
+      source: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-vlr3aj"
+      binary: "C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-vlr3aj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/drugo/miniforge3/envs/ros_env/Library/share/OGRE/cmake/modules;C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/OGRE/cmake;C:/Users/drugo/miniforge3/envs/ros_env/Library/CMake;"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-vlr3aj'
+        
+        Run Build Command(s): C:/Users/drugo/miniforge3/envs/ros_env/Library/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_397fc\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_397fc.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_397fc.dir\\build
+        Building C object CMakeFiles/cmTC_397fc.dir/CheckFunctionExists.c.obj
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_397fc.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlr3aj --filter-prefix="Nota: file incluso  " -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\drugo\\AppData\\Local\\Temp\\nm750F.tmp
+        CheckFunctionExists.c
+        Linking C executable cmTC_397fc.exe
+        	C:\\Users\\drugo\\miniforge3\\envs\\ros_env\\Library\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_397fc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_397fc.dir\\objects1.rsp @C:\\Users\\drugo\\AppData\\Local\\Temp\\nm758D.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_397fc.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_397fc.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_397fc.dir/manifest.res CMakeFiles\\cmTC_397fc.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_397fc.dir\\objects1.rsp /out:cmTC_397fc.exe /implib:cmTC_397fc.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlr3aj\\cmTC_397fc.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_397fc.dir/intermediate.manifest CMakeFiles\\cmTC_397fc.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_397fc.dir/intermediate.manifest /out:CMakeFiles\\cmTC_397fc.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_397fc.dir/manifest.res CMakeFiles\\cmTC_397fc.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_397fc.dir\\objects1.rsp /out:cmTC_397fc.exe /implib:cmTC_397fc.lib /pdb:C:\\Users\\drugo\\Desktop\\ROBOT\\catkin_ws\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlr3aj\\cmTC_397fc.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_397fc.dir/intermediate.manifest CMakeFiles\\cmTC_397fc.dir/manifest.res
+        
+      exitCode: 0
+...
