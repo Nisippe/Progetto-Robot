@@ -7,4 +7,3 @@ REM it emulates the modifications of the setup script without recurring computat
 REM new environment variables
 
 REM modified environment variables
-set PKG_CONFIG_PATH=C:/Users/drugo/Desktop/ROBOT/catkin_ws/devel\lib\pkgconfig;%PKG_CONFIG_PATH%

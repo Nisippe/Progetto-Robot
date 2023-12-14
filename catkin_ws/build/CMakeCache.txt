@@ -514,6 +514,15 @@ pkgcfg_lib_ZIP_zip:FILEPATH=C:/Users/drugo/miniforge3/envs/ros_env/Library/lib/z
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=C:/Users/drugo/miniforge3/envs/ros_env/Library/share/pluginlib/cmake
 
+//Value Computed by CMake
+progetto_BINARY_DIR:STATIC=C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto
+
+//Value Computed by CMake
+progetto_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+progetto_SOURCE_DIR:STATIC=C:/Users/drugo/Desktop/ROBOT/catkin_ws/src/progetto
+
 //CMake built-in FindProtobuf.cmake module compatible
 protobuf_MODULE_COMPATIBLE:BOOL=OFF
 
@@ -813,7 +822,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

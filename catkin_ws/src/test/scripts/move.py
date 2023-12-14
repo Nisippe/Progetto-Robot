@@ -24,6 +24,7 @@ try:
         if msvcrt.kbhit():
             key = msvcrt.getch()
             if key in move_bindings:
+                print(twist)
                 twist.linear.x = move_bindings[key][0]
                 twist.linear.y = move_bindings[key][1]
                 twist.linear.z = move_bindings[key][2]

@@ -54,6 +54,12 @@ C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/turtlebot3_simulations/turtlebot3_s
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/list_install_components.dir
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/install.dir
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/install/local.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/test.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/edit_cache.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/rebuild_cache.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/list_install_components.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/install.dir
+C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/progetto/CMakeFiles/install/local.dir
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/test/CMakeFiles/test.dir
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/test/CMakeFiles/edit_cache.dir
 C:/Users/drugo/Desktop/ROBOT/catkin_ws/build/test/CMakeFiles/rebuild_cache.dir
